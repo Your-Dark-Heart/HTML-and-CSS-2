@@ -1,0 +1,14 @@
+
+/*Margin Collapsing*/
+p {
+    padding: 0px;
+    margin: 20px;
+}
+
+
+/*
+p {
+    padding: 20px;
+    margin: 0;
+}
+*/
