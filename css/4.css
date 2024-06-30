@@ -1,0 +1,45 @@
+html {
+  /*We made the defualt font size not 16, but 10;
+  62.5% of 16px = 10px
+  */
+  font-size: 62.5%;
+}
+
+/*
+    % relative to the size of the container
+    vw, vh relative to the viewport
+    em, rem relative to the font size
+*/
+
+/*By default the width of the block elements is 100%; height is 0.*/
+
+.box {
+  /*50% of the width of the parent element*/
+  width: 50%;
+  /*
+  height: 100%; does not work here becuse the parent element, body element, 's height is 0, for it is a block element. (% relative to the size of the container)
+  */
+  
+
+  height: 100vh;
+  background-color: gold;
+  border-top: 3px solid orange;
+}
+
+.box1 {
+  width: 50vw;
+  height: 100vh;
+  background-color: red;
+}
+
+.box2 {
+  /*10 times the font size of the current element*/
+  /*There is no font size here, so em takes the parent element's font size, but body has not fonr size either, so it will get the default font size of 16, which the borwser put. width is now 100px*/
+
+  /*If yu use rem, it will take the default 16. And multipy it to the rem value. It does not take the current element font size or parent, ONLY DEFAULT 16, which we made 10. But user can change the default value in chrome or a browser, meaning rem will be nultiplied to that element, increasing the width of the div.*/
+  font-size: 50px;
+  width: 5em; /*Now width is 200, becuase we made the default font size 10px*/
+  height: 100vh;
+  background-color: blue;
+  color: white;
+}
