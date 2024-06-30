@@ -1,0 +1,55 @@
+body {
+  height: 200vh;
+}
+
+.boxes {
+  border: 3px solid lightgrey;
+  position: relative;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  
+}
+
+.box-one {
+  background-color: gold;
+}
+
+
+/* With relative positioning, we move the element relative to its position! Other elements are not affected!*/
+
+/*With absolute positioning, we move the element relative to its container, but remember the position if the container needs to be relative!*/
+
+
+/*
+position: absolute: Positions the element relative to the nearest ancestor with position: relative, position: absolute, or position: fixed. If no such ancestor exists, it positions relative to the <html> element.
+*/
+.box-two {
+  background-color: tomato;
+  position: relative;
+  left: 4rem;
+  bottom: 4rem;
+  z-index: -1;
+}
+
+.box-three {
+  background-color: dodgerblue;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+/*fixed element are relative to the viewport. They do not care about the container!*/
+.box-four {
+  background-color: dodgerblue;
+  position: fixed;
+  top: 0;
+  left: 2rem;
+  right: 2rem;
+  /*Nothing happens because we put an explicit width and height for a box above but:*/
+  /*Let the browser decide how wide the box should be*/
+  width: auto;
+}
