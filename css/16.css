@@ -1,0 +1,5 @@
+body {
+
+  /*Thi sets the font same as the font in the user's computer, so no need to download any font, which is fast in terms of the peformance!*/
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
