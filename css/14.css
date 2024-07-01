@@ -1,10 +1,13 @@
+/*When making font woff, choose expert and make character type the neccessary type!*/
+
+
 @font-face {
   font-family: 'opensans';
   src: url('fonts/open-sans/opensans-bold-webfont.woff2') format('woff2'),
        url('fonts/open-sans/opensans-bold-webfont.woff') format('woff');
   font-weight: bold;
   font-style: normal;
-
+  font-display: fallback;
 }
 
 @font-face {
@@ -13,7 +16,7 @@
        url('fonts/open-sans/opensans-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
+  font-display: optional;
 }
 
 
