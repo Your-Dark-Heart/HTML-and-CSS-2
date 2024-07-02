@@ -1,0 +1,9 @@
+body {
+  font-size: 2rem;
+  /*If you set line height without unit; it will be the multiplier. This multiplier will be multiplied to the font size of the text; then the result will be the line height!*/
+  line-height: 1.5;
+}
+
+h1 {
+  margin: 5.5rem 0 1rem;
+}
