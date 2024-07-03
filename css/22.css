@@ -1,0 +1,5 @@
+/*Seach CSS Filters on Google*/
+
+img:hover {
+  filter: grayscale(90%) blur(2px);
+}

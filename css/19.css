@@ -1,0 +1,9 @@
+body {
+  background: url(../images/bg-sanfrancisco.jpg);
+  background-repeat: no-repeat;
+  /*background-repeat: repeat-x; Repeats only on the horizontal axis */
+  /*background-position: 100% 100px;*/ /*Right Down*/
+  background-size: cover;
+  background-attachment: fixed; /*Fixed relative to the viewport*/
+  height: 300vh;
+}
