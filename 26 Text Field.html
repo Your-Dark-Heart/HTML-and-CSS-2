@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Field</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+  <link rel="stylesheet" href="css/27.css">
+</head>
+<body>
+  <form>
+
+    <input type="text" value="Hello, World!">
+
+    <input type="text" placeholder="Hello, World!">
+
+
+    <!--Sent to server by default-->
+    <input type="text" value="Hello!" readonly>
+    
+    <!--Not sent to server, does not work at all-->
+    <input type="text" value="Hello!" disabled>
+
+
+    <input type="text" maxlength="5">
+
+
+    <input type="text" autofocus>
+
+
+    <textarea>
+      Comment:
+    </textarea>
+  </form>
+</body>
+</html>
